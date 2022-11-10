@@ -28,7 +28,6 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  if (typeof str !=="string") console.error('solo puedes ingresar numeors')
   
   return (str)
 }
@@ -37,8 +36,6 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  if (typeof x !=="number") console.error('solo puedes ingresar numeors')
-  if (typeof y !=="number") console.error('solo puedes ingresar numeors')
 
   return (x+y)
 }
@@ -46,24 +43,18 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  if (typeof x !=="number") console.error('solo puedes ingresar numeors')
-  if (typeof y !=="number") console.error('solo puedes ingresar numeors')
   return (x-y)
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  if (typeof x !=="number") console.error('solo puedes ingresar numeors')
-  if (typeof y !=="number") console.error('solo puedes ingresar numeors')
   return (x*y)
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  if (typeof x !=="number") console.error('solo puedes ingresar numeors')
-  if (typeof y !=="number") console.error('solo puedes ingresar numeors')
   return (x / y)
 }
 
@@ -71,8 +62,6 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (typeof x !=="number") console.error('solo puedes ingresar numeors')
-  if (typeof y !=="number") console.error('solo puedes ingresar numeors')
   if(x===y){
     return true
   }else{
@@ -84,8 +73,6 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(typeof str1 !== "string") console.error('Solo se permiten datos tipo "string')
-  if(typeof str2 !== "string") console.error('Solo se permiten datos tipo "string')
 
   if(str1.length === str2.length){
     return true
@@ -107,7 +94,6 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (typeof num !=="number") console.error('solo puedes ingresar numeors')
 
   if(num < 50){
     return true
@@ -119,8 +105,6 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  if(typeof str1 !== "string") console.error('Solo se permiten datos tipo "number"')
-  if(typeof str2 !== "string") console.error('Solo se permiten datos tipo "number"')
   return(x%y)
 }
 
@@ -128,7 +112,6 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(typeof num !== 'number') console.log(`El dato ingresado ${num} no esta permitido , solo numeros `)
   
   if((num%2)==0){
     return true
@@ -144,7 +127,6 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(typeof num !== 'number') console.log(`El dato ingresado ${num} no esta permitido , solo numeros `)
   
   if((num%2)==1){
     return true
@@ -157,8 +139,6 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  if(!num) console.error('Falta colocar el numero a evaluar')
-  if(typeof num !== 'number') console.error(`El valor ${num} no esta permitido, solo Numberos`)
 
   return (num*num)
 }
@@ -166,8 +146,6 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  if(!num) console.error('Falta colocar el numero a evaluar')
-  if(typeof num !== 'number') console.error(`El valor ${num} no esta permitido, solo Numberos`)
 
   return (num*num*num)
 }
@@ -216,7 +194,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return (`${str}+!`)
+  return (`${str}!`)
 }
 
 function combinarNombres(nombre, apellido) {
@@ -236,7 +214,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  retun(alto*ancho)
+  return(alto*ancho)
 }
 
 
@@ -272,7 +250,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 
-  if(letra.length ===2)return('dato incorrecto')
+  if(letra.length ===2)return('Dato incorrecto')
   let newLetra = /[aeiou]/i.test(letra)
   if(newLetra === true){
     return('Es vocal')
