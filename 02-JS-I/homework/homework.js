@@ -30,7 +30,7 @@ function devolverString(str) {
   // Tu código:
   if (typeof str !=="string") console.error('solo puedes ingresar numeors')
   
-  retun (str)
+  return (str)
 }
 
 function suma(x, y) {
@@ -40,7 +40,7 @@ function suma(x, y) {
   if (typeof x !=="number") console.error('solo puedes ingresar numeors')
   if (typeof y !=="number") console.error('solo puedes ingresar numeors')
 
-  retun (x+y)
+  return (x+y)
 }
 
 function resta(x, y) {
@@ -48,7 +48,7 @@ function resta(x, y) {
   // Tu código:
   if (typeof x !=="number") console.error('solo puedes ingresar numeors')
   if (typeof y !=="number") console.error('solo puedes ingresar numeors')
-  retun (x-y)
+  return (x-y)
 }
 
 function multiplica(x, y) {
@@ -56,7 +56,7 @@ function multiplica(x, y) {
   // Tu código:
   if (typeof x !=="number") console.error('solo puedes ingresar numeors')
   if (typeof y !=="number") console.error('solo puedes ingresar numeors')
-  retun (x*y)
+  return (x*y)
 }
 
 function divide(x, y) {
@@ -64,7 +64,7 @@ function divide(x, y) {
   // Tu código:
   if (typeof x !=="number") console.error('solo puedes ingresar numeors')
   if (typeof y !=="number") console.error('solo puedes ingresar numeors')
-  retun (x / y)
+  return (x / y)
 }
 
 function sonIguales(x, y) {
@@ -176,7 +176,7 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   let value = Math.pow(num,exponent)
-  retun (value)
+  return (value)
 }
 
 function redondearNumero(num) {
@@ -190,7 +190,7 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   const value = Math.round(Math.ceil(num))
-  retun(value)
+  return(value)
 }
 
 function numeroRandom() {
@@ -206,9 +206,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 
-    if(Math.sign(numero)===1)retun(`El numero ${numero} es postivo`)
-    if(Math.sign(numero)===-1)retun(`El numero ${numero} es negativo`)
-    if((Math.sign(numero)===-0)||(Math.sign(numero)===-0))retun(false)
+    if(Math.sign(numero)===1)return(`El numero ${numero} es postivo`)
+    if(Math.sign(numero)===-1)return(`El numero ${numero} es negativo`)
+    if((Math.sign(numero)===-0)||(Math.sign(numero)===-0))return(false)
 
 }
 
@@ -223,7 +223,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  retun(String.prototype.concat(nombre+' '+apellido))
+  return(String.prototype.concat(nombre+' '+apellido))
 }
 
 function obtenerSaludo(nombre) {
@@ -243,14 +243,14 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  retun(lado*4)
+  return(lado*4)
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  retun((base*altura)/2)
+  return((base*altura)/2)
 }
 
 
@@ -275,7 +275,7 @@ function esVocal(letra){
   if(letra.length ===2)return('dato incorrecto')
   let newLetra = /[aeiou]/i.test(letra)
   if(newLetra === true){
-    retun('Es vocal')
+    return('Es vocal')
   }else('Dato incorrecto')
 
 }
