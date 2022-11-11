@@ -49,7 +49,7 @@ function saludo(idioma) {
   if(idioma === 'aleman')return('Guten Tag!')
   if(idioma === 'mandarin')return('Ni Hao!')
   if(idioma === 'ingles')return('Hello!')
-  if((idioma !== 'aleman'||'mandarin'||'ingles')||(idioma===undefined))return('Solo idioma "Aleman-Mandarin-Ingles" ')
+  if((idioma !== 'aleman'||'mandarin'||'ingles')||(idioma===undefined))return('Hola! ')
 
 
 }
@@ -60,7 +60,7 @@ function colors(color) {
   //En caso que el color recibido sea "red", devuleve --> "This is red"
   //En caso que el color recibido sea "green", devuleve --> "This is green"
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
-  //Caso default: devuelve --> "Color not found"
+  //Caso default: devuelve --> return ('Color not fond')
   //Usar el statement Switch.
 
 
@@ -71,15 +71,15 @@ function colors(color) {
      case 'red':
       return ('This is red')
       break;
- case 'gren':
+ case 'green':
       return ('This is green')
       break;
    case 'orange':
       return ('This is orange')
       break;
-      
+      return ('Color not fond')
     default:
-return ('Color not fond')
+
       break;
   }
 
