@@ -182,8 +182,8 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 
-    if(Math.sign(numero)===1)return(`El numero ${numero} es postivo`)
-    if(Math.sign(numero)===-1)return(`El numero ${numero} es negativo`)
+    if(Math.sign(numero)===1)return(`Es postivo`)
+    if(Math.sign(numero)===-1)return(`Es negativo`)
     if((Math.sign(numero)===-0)||(Math.sign(numero)===-0))return(false)
 
 }
