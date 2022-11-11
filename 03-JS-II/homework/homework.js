@@ -93,7 +93,7 @@ function colors(color) {
       break;
 
     default:
-      return('Color not fond')
+      return("Color not found")
       break;
   }
 
