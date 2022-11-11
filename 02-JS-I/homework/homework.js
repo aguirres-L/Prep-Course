@@ -182,9 +182,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
 
-  let str = 'es positivo';
+  let str = 'Es positivo';
 
-  if (numero < 0) str = 'es negativo';
+  if (numero < 0) str = 'Es negativo';
  else if (numero === 0) str = false;
 
   return str;
