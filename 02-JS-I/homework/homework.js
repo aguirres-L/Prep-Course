@@ -247,9 +247,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+
   const VOCALES = ['a', 'e', 'i', 'o', 'u'];
 
-  return VOCALES.includes(letra.toLowerCase());
+
+  if(VOCALES.includes(letra.toLowerCase()) === true)console.log('Es vocal')
+  if(VOCALES.includes(letra.toLowerCase()) === false)console.log('Dato incorrecto')
+
  
 }
 
