@@ -173,7 +173,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   
-    return (Math.round((Math.random()*2)))
+    return(Math.round(Math.random()*1))
 }
 
 function esPositivo(numero) {
@@ -184,7 +184,7 @@ function esPositivo(numero) {
 
   if(Math.sign(numero)===1) return("Es postivo")
   if(Math.sign(numero)===-1)return("Es negativo")
-  if((Math.sign(numero)===-0))return(false)
+  if(Math.sign(numero)===-0)return(false)
 
 }
 
