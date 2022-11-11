@@ -97,11 +97,7 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if(num < 51){
-    return (true)
-  }else{
-   return (false)
-  }
+  return num > 50;
 }
 
 function obtenerResto(x, y) {
