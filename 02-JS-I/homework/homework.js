@@ -177,7 +177,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   
-    return  Math.floor(Math.random()*2)
+    return ((Math.random()*2))
 }
 
 function esPositivo(numero) {
