@@ -91,7 +91,7 @@ function colors(color) {
       break;
       return ('Color not fond')
     default:
-
+      return ('Color not fond')
       break;
   }
 
