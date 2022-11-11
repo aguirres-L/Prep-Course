@@ -89,7 +89,6 @@ function colors(color) {
    case 'orange':
       return ('This is orange')
       break;
-      return ('Color not fond')
     default:
       return ('Color not fond')
       break;
