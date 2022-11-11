@@ -169,6 +169,16 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
+
+  
+  if(num1 === 0 || num2 === 0 || num3 ===0){
+    console.log("Error")
+  }else if (num1 < 0 || num2 < 0 || num3 < 0){
+    console.log('hay negativos')
+  }else if (num1 > num2 && num1> num3){
+    console.log("Número 1 es mayor y positivo")
+  }
+
 }
 
 function esPrimo(numero) {
@@ -183,7 +193,11 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-
+  if(valor === true){
+    return('Soy verdadero')
+  }else if(valor === false){
+    return('Soy falso')
+  }
 }
 
 function tablaDelSeis(){
