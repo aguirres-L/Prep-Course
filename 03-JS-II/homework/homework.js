@@ -75,12 +75,27 @@ function colors(color) {
   //Caso default: devuelve --> return ('Color not fond')
   //Usar el statement Switch.
 
-  if(color == 'blue')return('This is blue')
-  if(color == 'red')return('This is red')
-  if(color == 'orange')return('This is orange')
- 
-     if(color=== undefined)return('Color not fond')
- 
+
+  switch (color) {
+    case"blue" :
+      return(`This is ${color}`)
+    break;
+    case 'red':
+      return(`This is ${color}`)
+    break;
+
+    case 'green':
+      return(`This is ${color}`)
+     break;
+    
+     case 'orange':
+      return(`This is ${color}`)
+      break;
+
+    default:
+      return('Color not fond')
+      break;
+  }
 
 
 }
