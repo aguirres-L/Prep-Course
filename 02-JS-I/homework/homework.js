@@ -98,9 +98,9 @@ function mayorQueCincuenta(num) {
   // Tu código:
 
   if(num < 51){
-    return true
+    return (true)
   }else{
-   return false
+   return (false)
   }
 }
 
