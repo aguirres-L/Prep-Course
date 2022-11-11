@@ -252,15 +252,14 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 
-  let e = letra
-  if(typeof e !==1)return('Dato incorrecto')
   let newLetra = /[aeiou]/.test(letra)
-  
-  if(newLetra === true){
-    return('Es vocal')
+  if((newLetra === true)&&(letra.length === 1)){
+    return('vocal')
   }else{
     return('Dato incorrecto')
+
   }
+ 
 }
 
 
