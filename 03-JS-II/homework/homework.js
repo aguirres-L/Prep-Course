@@ -149,7 +149,7 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
 
   if(numero % 3==0 && numero % 5==0){
-    return('"fizzbuzz"')
+    return('fizzbuzz')
   }else if (numero%3===0){
     return("fizz")
   }else if(numero %5 === 0){
@@ -157,7 +157,7 @@ function fizzBuzz(numero) {
   }else{
     return(numero)
   }
-
+//03-JS-II/homework/homework.js
 
 
 }
@@ -172,11 +172,11 @@ function operadoresLogicos(num1, num2, num3) {
 
   
   if(num1 === 0 || num2 === 0 || num3 ===0){
-    console.log("Error")
+    return("Error")
   }else if (num1 < 0 || num2 < 0 || num3 < 0){
-    console.log('hay negativos')
+    return('hay negativos')
   }else if (num1 > num2 && num1> num3){
-    console.log("Número 1 es mayor y positivo")
+    return("Número 1 es mayor y positivo")
   }
 
 }
