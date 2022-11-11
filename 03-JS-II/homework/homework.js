@@ -25,7 +25,7 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   switch (status) {
     case 1:
-      return console.log('Online')
+      return('Online')
       break;
   case 2:
       return('Away')
