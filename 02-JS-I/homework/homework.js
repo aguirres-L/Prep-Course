@@ -251,8 +251,8 @@ function esVocal(letra){
   const VOCALES = ['a', 'e', 'i', 'o', 'u'];
 
 
-  if(VOCALES.includes(letra.toLowerCase()) === true)console.log('Es vocal')
-  if(VOCALES.includes(letra.toLowerCase()) === false)console.log('Dato incorrecto')
+  if(VOCALES.includes(letra.toLowerCase()) === true)return('Es vocal')
+  if(VOCALES.includes(letra.toLowerCase()) === false)return('Dato incorrecto')
 
  
 }
