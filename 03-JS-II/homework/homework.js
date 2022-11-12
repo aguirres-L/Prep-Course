@@ -221,7 +221,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   let tablaX6 = []
 
-  for (let i = 1 ; i<11; i++){
+  for (let i = 0 ; i<11; i++){
     tablaX6.push(6*i)
   }
   return tablaX6
