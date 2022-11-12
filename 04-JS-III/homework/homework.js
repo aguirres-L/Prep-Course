@@ -93,10 +93,8 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
 
-    const newArray = []
     const result = resultadosTest.reduce((value,index)=>value+index)
-    newArray.push(result / resultadosTest.length)
-    return newArray
+    return(result / resultadosTest.length)
   }
 
 
