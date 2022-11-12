@@ -191,6 +191,18 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+
+  let primo = true;
+
+  for(let i = 2 ; i < numero;i++){
+    if((numero%i)===0){
+      primo = false
+      break;
+    }
+  }
+
+    return(primo)
+
 }
 
 function esVerdadero(valor){
@@ -214,7 +226,9 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+  if(Math.round(numero)===3){
+    
+  }
 }
 
 function doWhile(numero) {
