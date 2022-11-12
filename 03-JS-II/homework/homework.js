@@ -222,7 +222,7 @@ function tablaDelSeis(){
   let tablaX6 = []
 
   for (let i = 1 ; i<11; i++){
-    arry.push(6*i)
+    tablaX6.push(6*i)
   }
   return tablaX6
 }
