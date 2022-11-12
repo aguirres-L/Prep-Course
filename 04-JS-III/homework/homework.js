@@ -92,7 +92,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-}
+
+    const newArray = []
+    const result = resultadosTest.reduce((value,index)=>value+index)
+    newArray.push(result / resultadosTest.length)
+    return newArray
+  }
 
 
 function numeroMasGrande(numeros) {
