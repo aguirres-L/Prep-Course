@@ -201,7 +201,7 @@ function esPrimo(numero) {
     }
   }
 
-    return(primo)
+    return(false)
 
 }
 
