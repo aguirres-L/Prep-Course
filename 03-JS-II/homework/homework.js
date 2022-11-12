@@ -193,10 +193,12 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
 
   for(let i = 2 ; i < numero;i++){
-    if((numero%i)===0){
+    if((numero % i)===0){
       return(false)
       break;
-    }else{
+    }else if (numero <2){
+    return(false)
+  }else{
       return(true)
       break;
     }
