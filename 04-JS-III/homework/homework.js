@@ -127,6 +127,16 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
 
+  for ( let i = 0; i< arreglo.length; i++){
+
+    if(arreglo[i]>18){
+      acumulador2 = arreglo[i]
+      return(acumulador2) 
+      
+    }
+
+  }
+
 }
 
 
