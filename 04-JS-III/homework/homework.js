@@ -163,9 +163,9 @@ function empiezaConNueve(n) {
   let number = n.toString()
 
   if (number.charAt(0) == 9){
-    console.log(true)
+    return(true)
   }else{
-    console.log(false)
+    return(false)
   }
   
 }
