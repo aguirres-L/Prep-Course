@@ -147,6 +147,12 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
   
+  if(numeroDeDia === 1|| numeroDeDia ===7){
+    return('Es fin de semana ')
+  }else if(numeroDeDia === 2||3||4||5||6){
+    return('Es dia laboral ')
+  }
+
 } 
 
 
@@ -154,6 +160,11 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
+  if (n === 9){
+  return(true)
+  }else{
+  return(false)
+  }
   
 }
 
