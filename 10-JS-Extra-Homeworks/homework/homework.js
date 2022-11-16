@@ -43,6 +43,15 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+
+let numeros = numero.toString()
+let ver = numeros.split("").reverse().join("")
+
+if  (numeros === ver) {
+  return 'Es capicua'
+}if (numeros !== ver){
+  return 'No es capicua'
+}
 }
 
 
