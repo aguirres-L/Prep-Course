@@ -1,0 +1,44 @@
+html{
+    background-color: grey;
+}
+img{
+    width:400px ;
+    margin-top: 10px;
+    border-radius: 20px ;
+    display: flex;
+    opacity: 0.7;
+}
+h1 {
+    color : white;
+    display: flex;
+    margin-left: 100px;
+}
+
+.thirdDiv{
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    background-image: url('https://i.pinimg.com/564x/3f/bb/22/3fbb225db2f18ebadc7f20e810fc9dc9.jpg') ;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+.padre{
+    margin-left: 30%;
+}
+.div a{
+    text-decoration: none;
+    color: white;
+    border-bottom: solid 2px black;
+}
+.div a:hover{
+    border-color: white;
+}
