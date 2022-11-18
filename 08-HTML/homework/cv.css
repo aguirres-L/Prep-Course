@@ -1,0 +1,90 @@
+html{
+    background-color: grey;
+    scroll-behavior: smooth
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.titulo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+h2{
+    color:green;
+}
+
+
+
+
+
+.email{
+    border-bottom: solid 2px  white ;
+    font-size: 18px;
+}
+.email:hover{
+    border-color: greenyellow;
+    color: grey;
+
+}
+.cel{
+    border-bottom: solid 2px  white ;
+    font-size: 18px;
+
+}
+.cel:hover{
+    border-color: greenyellow;
+    color: grey;
+
+}
+
+
+
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.uno{
+    background-color: azure;
+    border-radius: 20px;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    opacity: 0.8;
+
+}
+.dos{
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+
+
+.foto{
+    width: 130px;
+    height: 220px;
+    border-radius: 10px;
+
+}
+
+li{
+    color: grey;
+}
