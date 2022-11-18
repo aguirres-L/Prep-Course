@@ -69,6 +69,14 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  let str = cadena.split("")  // el new Array es separado por " letra "
+ 
+  for(let i =0;i<str.length;i++){
+    if(str[i]=== 'a'||str[i]=== 'b'||str[i]=== 'c'){
+      delete str[i]
+    } 
+  }
+  return str.join("")
 }
 
 
