@@ -34,7 +34,17 @@ function asAmirror(str) {
   //Escribe una función que tome la frase recibida y la devuelva de modo tal que se pueda leer de izquierda a derecha 
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
-  //Escribe tu código aquí
+  //Escribe tu código aquít
+     
+  let nweStr = str.split(" ")
+  let newFrase =[]
+  for(let i=nweStr.length;i>=0;i--){
+    
+    newFrase.push(nweStr[i])
+    delete newFrase[0]
+    
+  }
+  return newFrase.join(" ")
 } 
 
 
